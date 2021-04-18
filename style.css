@@ -1,0 +1,42 @@
+body{
+	background: url('photo.jfif') no-repeat ;
+	background-size: cover;  
+}
+form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	font-size: 25px;	
+}
+h1{
+	text-align: center;
+	padding: 80px 25px;
+	text-transform: uppercase;	
+}
+td{
+	font-size: 20px;
+	padding: 5px;
+	margin: 20px;
+	font-weight: bold;
+}
+input{
+	font-size: 20px;
+	border : 0;
+	border-radius: 6px;
+	outline: none;
+}
+button{
+    font-size: 18px;
+	font-weight: bold;
+	text-align:right;
+	padding: 10px 15px;
+	border:0;
+	border-radius: 9px;
+	background-color: grey;	
+}
+button:hover{
+	color: red;
+}
+

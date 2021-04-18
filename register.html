@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+	<form action="connect2.php"  method="POST">
+		<table>
+			<tr>
+				<td>Name :</td>
+				<td><input type="text" name="username"></td>
+			</tr>
+	
+			<tr>
+				<td>Password :</td>
+				<td><input type="password" name="password"></td>
+			</tr>
+
+			<tr>
+				<td>Gender :</td>
+				<td>
+					<input type="radio" name="gender" value="m">Male
+					<input type="radio" name="gender" value="m">Female
+				</td>
+			</tr>
+			<tr>
+				<td>Email :</td>
+				<td><input type="email" name="email" placeholder="abc@gmail.com"></td>
+			</tr>
+
+			<tr>
+				<td>Phone no :</td>
+				<td>
+					<select name="phoneCode">
+						<option value=91>+91</option>
+					</select>
+					<input type="phone" name="phone" placeholder="9637******">
+				</td>
+			</tr>
+			<tr>
+				<td><button type="submit" >SUBMIT</button></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
